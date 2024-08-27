@@ -38,6 +38,20 @@ section h2 {
     color: #76C7C0;
 }
 
+ul {
+    list-style-type: disc;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #1E1E1E;
     padding: 10px;
