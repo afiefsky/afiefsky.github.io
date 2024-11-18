@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkafiefsky_portfolio_docs=self.webpackChunkafiefsky_portfolio_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
