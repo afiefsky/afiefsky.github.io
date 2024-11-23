@@ -1,60 +1,85 @@
 body {
     background-color: #121212;
-    color: #E0E0E0;
+    color: #e0e0e0;
+    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
-header {
-    background-color: #1E1E1E;
-    padding: 20px;
+.header, .footer {
+    background-color: #212121;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #76C7C0;
+.section-title {
+    color: #f5f5f5;
 }
 
-header p {
-    font-size: 1.2em;
-    color: #B3B3B3;
-}
-
-header a {
-    color: #76C7C0;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-section {
-    margin: 20px;
-}
-
-section h2 {
-    color: #76C7C0;
-}
-
-ul {
-    list-style-type: disc;
+ul.list-group {
     padding-left: 0;
-    display: inline-block;
-    text-align: left;
-    margin: 0 auto;
+    list-style: none;
 }
 
-li {
-    font-size: 18px;
-    line-height: 1.6;
+.list-group-item {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: none;
+    padding: 10px 15px;
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #1E1E1E;
-    padding: 10px;
-    color: #B3B3B3;
-    font-size: 0.8em;
+.list-group-item:hover {
+    background-color: #444444;
+}
+
+.btn-outline-light {
+    border-color: #e0e0e0;
+    color: #e0e0e0;
+}
+
+.btn-outline-light:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+/* Ensure content is not centered, but spaced properly */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Skills section items */
+ul.list-group li {
+    margin-bottom: 10px;
+}
+
+/* Experience section fixes */
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-section div {
+    padding: 10px 15px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+.experience-section h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-section ul {
+    padding-left: 20px;
+}
+
+/* Additional padding for sections */
+section {
+    padding: 40px 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #212121;
+    color: #e0e0e0;
 }

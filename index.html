@@ -3,29 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afiefsky's GitHub Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Afiefsky's Portfolio</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link href="styles.css?v=1" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header text-white text-center py-4">
         <h1>Afiefsky's Portfolio</h1>
-        <p>Server-side Software Engineer | JavaScript Ninja | Clean Code Writer</p>
-        <a href="https://github.com/afiefsky">GitHub</a>
-        <a href="https://www.linkedin.com/in/afiefsky/">LinkedIn</a>
+        <p class="lead">Full-Stack Software Engineer | Backend, Frontend, & DevOps | Lifelong Learner in Software Engineering & DevOps</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="https://github.com/afiefsky" class="btn btn-outline-light">GitHub</a>
+            <a href="https://www.linkedin.com/in/afiefsky/" class="btn btn-outline-light">LinkedIn</a>
+        </div>
     </header>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>JavaScript (Node.js, React.js, jQuery)</li>
-            <li>PHP (Laravel, CodeIgniter)</li>
-            <li>Database Technologies (MySQL, MongoDB, Elasticsearch)</li>
-            <li>CI/CD, Docker, AWS, Git Flow</li>
+    <section class="container my-5">
+        <h2 class="section-title text-center mb-4">About Me</h2>
+        <p class="text-center">Hi, I'm Afief! I'm a Software Engineer with over 5 years of experience in backend development and DevOps. I specialize in creating scalable, efficient systems aligned with business goals. My expertise includes JavaScript, PHP, AWS, and integrating third-party tools like payment solutions, messaging gateways, and analytics.</p>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="section-title text-center mb-4">Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item">JavaScript (Node.js, React.js, jQuery)</li>
+            <li class="list-group-item">PHP (Laravel, CodeIgniter)</li>
+            <li class="list-group-item">Database Technologies (MySQL, MongoDB, Elasticsearch)</li>
+            <li class="list-group-item">CI/CD, Docker, AWS, Git Flow</li>
+            <li class="list-group-item">Unit Testing (Mocha.js, Chai.js)</li>
+            <li class="list-group-item">API Integration (GoPay, Dana, OVO, ShopeePay, Xendit)</li>
+            <li class="list-group-item">Monitoring & Analytics (Metabase, Grafana, ELK, New Relic)</li>
         </ul>
     </section>
 
-    <footer>
+    <section class="container my-5">
+        <h2 class="section-title text-center mb-4">Experience</h2>
+        <div class="experience-section">
+            <div class="mb-4">
+                <h5>Senior Backend Engineer at Fore Coffee (June 2022 - Present)</h5>
+                <ul>
+                    <li>Utilized AWS services (SQS, Lambda, CloudWatch, EC2, S3) for better staging/production environment.</li>
+                    <li>Managed system monitoring with Metabase, Grafana, ELK, and New Relic.</li>
+                    <li>Led DevOps (mainly in staging) processes with GitLab (CI/CD), Argo CD, and Sealed Secrets.</li>
+                    <li>Mentored junior engineers and led code reviews to maintain code quality (SOLID).</li>
+                </ul>
+            </div>
+    
+            <div class="mb-4">
+                <h5>Junior Backend Engineer at Fore Coffee (August 2019 - June 2022)</h5>
+                <ul>
+                    <li>Developed server-side applications using Node.js and Express.js.</li>
+                    <li>Integrated third-party APIs such as GoPay, Dana, ShopeePay, and others.</li>
+                    <li>Wrote unit tests using Mocha.js and Chai.js for code reliability.</li>
+                    <li>Ensured smooth staging and pre-production testing for APIs.</li>
+                </ul>
+            </div>
+    
+            <div class="mb-4">
+                <h5>Junior Web Developer at AsiaQuest Indonesia (September 2018 - August 2019)</h5>
+                <ul>
+                    <li>Developed on the Kintone platform using JavaScript, jQuery, and React.js.</li>
+                    <li>Integrated JavaScript libraries (FullCalendar, Chart.js) to extend Kintone's capabilities.</li>
+                    <li>Worked on Laravel projects with MySQL for database management.</li>
+                </ul>
+            </div>
+    
+            <div class="mb-4">
+                <h5>Web Developer Intern at VTI Indonesia (March 2017 - May 2017)</h5>
+                <ul>
+                    <li>Worked with Laravel and MySQL for application development.</li>
+                    <li>Implemented Swagger for API documentation within Laravel.</li>
+                    <li>Focused on clean code practices, following DRY principles.</li>
+                </ul>
+            </div>
+    
+            <div>
+                <h5>Web Developer Intern at Miluv (November 2016 - January 2017)</h5>
+                <ul>
+                    <li>Developed front-end applications with React.js and JavaScript.</li>
+                    <li>Created RESTful APIs with Spring Boot for backend services.</li>
+                    <li>Worked on PHP projects using CodeIgniter and Laravel.</li>
+                </ul>
+            </div>
+        </div>
+    </section>   
+
+    <section class="container my-5">
+        <h2 class="section-title text-center mb-4">Education</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Sarjana Komputer, Computer Science - BINUS University (2021 - 2024)</li>
+            <li class="list-group-item">Ahli Madya Komputer, Teknik Informatika - Politeknik Pos Indonesia (2014 - 2017)</li>
+        </ul>
+    </section>
+
+    <footer class="footer text-center py-3">
         <p>&copy; 2024 Afiefsky. All rights reserved.</p>
     </footer>
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
